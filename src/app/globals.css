@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme{
+  --color-verde-oscuro: #0f3d2e;
+  --color-verde-menta: #7cf5b5;
+}
