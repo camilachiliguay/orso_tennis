@@ -1,7 +1,7 @@
-import { canchas } from "./data/canchas";
+
 import Link from "next/link";
 import Image from "next/image";
-
+import { canchas } from "@/data/canchas";
 export default function Home() {
   return (
     <main>
@@ -22,7 +22,7 @@ export default function Home() {
             Disfrutá de nuestras canchas y reservá tu turno de manera rápida y sencilla.
           </p>
           <Link
-            href="/canchas"
+            href="/reservar"
             className="bg-verde-menta text-verde-oscuro font-bold px-6 py-3 rounded-full hover:bg-white transition-colors"
           >
             Reservar cancha
@@ -57,7 +57,7 @@ export default function Home() {
   </li>
 
 </ul>
-   {/*    <div>
+      <div>
         <span>Nuestra red de canchas</span>
         <h2>Canchas disponibles</h2>
         {canchas.map((cancha) => (
@@ -67,7 +67,7 @@ export default function Home() {
             <p>Activa: {cancha.activa ? "Sí" : "No"}</p>
           </div>
         ))}
-      </div> */}
+      </div>
     </main>
   );
 }
