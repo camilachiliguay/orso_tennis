@@ -38,6 +38,12 @@ export default function Reservar() {
   <input type="checkbox" checked={conLuz} onChange={(e) => setConLuz(e.target.checked)} />
   Con luz (+$5.000)
 </label>
+<p>Precio: ${conLuz ? precioConLuz : precioSinLuz}</p>
+<button onClick={() => {
+  alert(`Reservaste la cancha ${canchaSeleccionada} el día ${diaSeleccionado} a las ${horarioSeleccionado} ${conLuz ? "con" : "sin"} luz Precio: $${conLuz ? precioConLuz : precioSinLuz}.`);
+}}>
+  Reservar
+</button>
     </div>
   );
 }
