@@ -24,7 +24,7 @@ export default function NavigationBar() {
 
       <ul className="hidden md:flex gap-4">
        <li><LinkNav href="/">Inicio</LinkNav></li>
-        <li><LinkNav href="/canchas">Canchas</LinkNav></li>
+        <li><LinkNav href="/reservar">Reservar cancha</LinkNav></li>
       </ul>
 
       <div className="hidden md:flex items-center gap-4">
@@ -35,7 +35,7 @@ export default function NavigationBar() {
       {menuAbierto && (
         <div className="md:hidden absolute top-full left-0 w-full bg-verde-oscuro flex flex-col items-center gap-4 py-4">
           <LinkNav href="/">Inicio</LinkNav>
-          <LinkNav href="/canchas">Canchas</LinkNav>
+          <LinkNav href="/reservar">Reservar cancha</LinkNav>
           <LinkNav href="/register">Registrarse</LinkNav>
           <BotonNav href="/login">Iniciar sesión</BotonNav>
         </div>

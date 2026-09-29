@@ -2,22 +2,29 @@ export const canchas = [
   {
     id: 1,
     numeroCancha: 1,
-    superficie: "cemento",
-    precioHora: 2000,
+    superficie: "polvo de ladrillo",
+    precioHora: 15000,
     activa: false,
   },
   {
     id: 2,
     numeroCancha: 2,
-    superficie: "cemento",
-    precioHora: 2000,
+    superficie: "polvo de ladrillo",
+    precioHora: 15000,
     activa: true,
   },
   {
     id: 3,
     numeroCancha: 3,
-    superficie: "cemento",
-    precioHora: 2000,
+    superficie: "polvo de ladrillo",
+    precioHora: 15000,
     activa: false,
   },
+    {
+    id: 4,
+    numeroCancha: 4,
+    superficie: "polvo de ladrillo",
+    precioHora: 15000,
+    activa: false,
+  }
 ];
